@@ -1,14 +1,14 @@
 {
   "name": "websitewrapper",
   "version": "0.1.0",
-  "description": "Always for easier connection,creating,reading and updating of Firebases database",
+  "description": "This Project does what it says on the tin. You can create a wrapper so you can have a nice shortcut for a website from you lancher or taskbar.",
   "main": "index.js",
   "scripts": {
     "test": "node tests/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yeticms/firebasecurd.git"
+    "url": "git+https://github.com/RobertJGabriel/websiteWrapper.git"
   },
   "keywords": [
     "firebase",
@@ -19,7 +19,7 @@
   "author": "Robert James Gabriel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yeticms/firebasecurd/issues"
+    "url": "https://github.com/RobertJGabriel/websiteWrapper/issues"
   },
-  "homepage": "https://github.com/yeticms/firebasecurd#readme"
+  "homepage": "https://github.com/RobertJGabriel/websiteWrapper#readme"
 }

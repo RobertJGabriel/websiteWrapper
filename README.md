@@ -1,5 +1,5 @@
 
-Website Wrapper
+# Website Wrapper
 # About
 This Project does what it says on the tin. You can create a wrapper so you can have a nice shortcut for a website from you lancher or taskbar.
 
