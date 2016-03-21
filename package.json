@@ -15,7 +15,13 @@
     "curd",
     "cms"
   ],
-
+  "dependencies": {
+    "fs": "*",
+    "nw-builder": "*",
+    "file-move": "*",
+    "gulp-rename": "*",
+    "gulp": "*"
+  },
   "author": "Robert James Gabriel",
   "license": "ISC",
   "bugs": {
