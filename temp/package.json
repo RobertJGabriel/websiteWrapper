@@ -1,0 +1,25 @@
+
+{
+    "name": "yetiwraper",
+    "main": "index.html",
+    "description": "",
+    "version": "1.0.0",
+    "window": {
+        "frame": true,
+        "toolbar": false,
+        "width": 850,
+        "height": 500,
+        "position": "mouse",
+        "min_width": 850,
+        "min_height": 500
+    },
+    "webkit": {
+        "plugin": true
+    },
+    "scripts": {
+        "start": "nodewebkit"
+    },
+    "dependencies": {
+        "gulp-install": "^0.4.0"
+    }
+}

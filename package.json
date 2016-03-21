@@ -1,0 +1,25 @@
+{
+  "name": "websitewrapper",
+  "version": "0.1.0",
+  "description": "Always for easier connection,creating,reading and updating of Firebases database",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeticms/firebasecurd.git"
+  },
+  "keywords": [
+    "firebase",
+    "curd",
+    "cms"
+  ],
+
+  "author": "Robert James Gabriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeticms/firebasecurd/issues"
+  },
+  "homepage": "https://github.com/yeticms/firebasecurd#readme"
+}
