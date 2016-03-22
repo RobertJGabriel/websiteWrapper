@@ -30,7 +30,7 @@ websitewrapper -u http://www.google.ie -t Google -i /Users/robertjgabriel/deskto
 ```javascript
 var websitewrapper = require('websitewrapper'),
 
-  websitewrapper.create("http://www.google.ie","batman","yeti.icns");
+  websitewrapper.create("http://www.google.ie","google","logo.icns");
 
 ```
 
