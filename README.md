@@ -3,6 +3,11 @@
 # About
 This Project does what it says on the tin. Create a dmg of a website so you can have it as a quick shortcut in the dock on osx,
 
+# Installation
+
+```shell
+npm install websitewrapper
+```
 
 # Useage
 You need to pass three things into it.
