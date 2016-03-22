@@ -1,7 +1,7 @@
 {
   "name": "websitewrapper",
-  "version": "0.1.7",
-  "description": "This Project does what it says on the tin. You can create a wrapper so you can have a nice shortcut for a website from you lancher or taskbar.",
+  "version": "0.1.8",
+  "description": "This project does what it says on the tin. Wrap a website so you can have it as a quick shortcut in the dock on osx.",
   "main": "index.js",
   "scripts": {
     "test": "node tests/index.js"
