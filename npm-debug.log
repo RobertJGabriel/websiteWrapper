@@ -1,0 +1,99 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@2.14.12
+3 info using node@v4.3.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/robertgabriel/Documents/College/websiteWrapper',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /var/root/.npm/websitewrapper/0.1.0/package.tgz not in flight; packing
+9 verbose tar pack [ '/var/root/.npm/websitewrapper/0.1.0/package.tgz',
+9 verbose tar pack   '/Users/robertgabriel/Documents/College/websiteWrapper' ]
+10 verbose tarball /var/root/.npm/websitewrapper/0.1.0/package.tgz
+11 verbose folder /Users/robertgabriel/Documents/College/websiteWrapper
+12 info prepublish websitewrapper@0.1.0
+13 verbose addLocalTarball adding from inside cache /var/root/.npm/websitewrapper/0.1.0/package.tgz
+14 silly cache afterAdd websitewrapper@0.1.0
+15 verbose afterAdd /var/root/.npm/websitewrapper/0.1.0/package/package.json not in flight; writing
+16 verbose afterAdd /var/root/.npm/websitewrapper/0.1.0/package/package.json written
+17 silly publish { name: 'websitewrapper',
+17 silly publish   version: '0.1.0',
+17 silly publish   description: 'This Project does what it says on the tin. You can create a wrapper so you can have a nice shortcut for a website from you lancher or taskbar.',
+17 silly publish   main: 'index.js',
+17 silly publish   scripts: { test: 'node tests/index.js' },
+17 silly publish   repository:
+17 silly publish    { type: 'git',
+17 silly publish      url: 'git+https://github.com/RobertJGabriel/websiteWrapper.git' },
+17 silly publish   keywords: [ 'firebase', 'curd', 'cms' ],
+17 silly publish   dependencies:
+17 silly publish    { fs: '*',
+17 silly publish      'nw-builder': '*',
+17 silly publish      'file-move': '*',
+17 silly publish      'gulp-rename': '*',
+17 silly publish      gulp: '*' },
+17 silly publish   author: { name: 'Robert James Gabriel' },
+17 silly publish   license: 'ISC',
+17 silly publish   bugs: { url: 'https://github.com/RobertJGabriel/websiteWrapper/issues' },
+17 silly publish   homepage: 'https://github.com/RobertJGabriel/websiteWrapper#readme',
+17 silly publish   readme: '\n# Website Wrapper\n# About\nThis Project does what it says on the tin. You can create a wrapper so you can have a nice shortcut for a website from you tray bar or taskbar.\n\n\n# Useage\nYou need to pass three things into it.\n1. The url of the website you want to create the shortcut for.\n2. The title of the website.\n3. The icon (its full path) you want pass (To convert images to icns visit [iconverticons](https://iconverticons.com/online/) )\n\nIt will then create a folder called build . Your exe and dmg wrapper are there now  :)\n\n\n```\nvar websitewrapper = require(\'websitewrapper\'),\n\n  websitewrapper.create("http://www.google.ie","batman","yeti.icns");\n\n\n```\n\n# Example\nAs you can see\nStupid project really but a nice on all the same.\n\n![alt text](assets/example.png "Firebase Yeti")\n',
+17 silly publish   readmeFilename: 'README.md',
+17 silly publish   gitHead: '02aafa10a8cd2333f92ae5e20c60d235551b0fdb',
+17 silly publish   _id: 'websitewrapper@0.1.0',
+17 silly publish   _shasum: '47b89df24c8187112aad7a11745389ded4d3f634',
+17 silly publish   _from: '.' }
+18 verbose getPublishConfig undefined
+19 silly mapToRegistry name websitewrapper
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/websitewrapper
+23 verbose publish registryBase https://registry.npmjs.org/
+24 silly publish uploading /var/root/.npm/websitewrapper/0.1.0/package.tgz
+25 verbose request uri https://registry.npmjs.org/websitewrapper
+26 verbose request sending authorization for write operation
+27 info attempt registry request try #1 at 12:04:55 AM
+28 verbose request using bearer token for auth
+29 verbose request id 75b9bab8efe2ab9c
+30 http request PUT https://registry.npmjs.org/websitewrapper
+31 http 403 https://registry.npmjs.org/websitewrapper
+32 verbose headers { 'content-type': 'application/json',
+32 verbose headers   'cache-control': 'max-age=300',
+32 verbose headers   'content-length': '95',
+32 verbose headers   'accept-ranges': 'bytes',
+32 verbose headers   date: 'Tue, 22 Mar 2016 00:04:57 GMT',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'x-served-by': 'cache-fra1232-FRA',
+32 verbose headers   'x-cache': 'MISS',
+32 verbose headers   'x-cache-hits': '0',
+32 verbose headers   'x-timer': 'S1458605095.914592,VS0,VE1778' }
+33 verbose request invalidating /var/root/.npm/registry.npmjs.org/websitewrapper on PUT
+34 error publish Failed PUT 403
+35 verbose stack Error: "You cannot publish over the previously published version 0.1.0." : websitewrapper
+35 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+35 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+35 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+35 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+35 verbose stack     at emitTwo (events.js:87:13)
+35 verbose stack     at Request.emit (events.js:172:7)
+35 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1082:10)
+35 verbose stack     at emitOne (events.js:82:20)
+35 verbose stack     at Request.emit (events.js:169:7)
+35 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+36 verbose statusCode 403
+37 verbose pkgid websitewrapper
+38 verbose cwd /Users/robertgabriel/Documents/College/websiteWrapper
+39 error Darwin 15.3.0
+40 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+41 error node v4.3.1
+42 error npm  v2.14.12
+43 error code E403
+44 error "You cannot publish over the previously published version 0.1.0." : websitewrapper
+45 error If you need help, you may report this error at:
+45 error     <https://github.com/npm/npm/issues>
+46 verbose exit [ 1, true ]
