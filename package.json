@@ -25,7 +25,10 @@
     "nw-builder": "*",
     "file-move": "*",
     "gulp-rename": "*",
-    "gulp": "*"
+    "gulp": "*",
+    "osenv":"*",
+    "username":"*",
+    "path-extra":"*"
   },
   "author": "Robert James Gabriel",
   "license": "ISC",
