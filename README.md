@@ -6,8 +6,11 @@ This Project does what it says on the tin. Create a dmg of a website so you can 
 
 # Useage
 You need to pass three things into it.
+
 1. The url of the website you want to create the shortcut for.
+
 2. The title of the website.
+
 3. The icon (its full path) you want pass (To convert images to icns visit [iconverticons](https://iconverticons.com/online/) )
 
 It will then create a folder called build . Your exe and dmg wrapper are there now  :)
