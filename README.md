@@ -1,7 +1,7 @@
 
 # Website Wrapper
 # About
-This Project does what it says on the tin. You can create a wrapper so you can have a nice shortcut for a website from you tray bar or taskbar.
+This Project does what it says on the tin. Create a dmg of a website so you can have it as a quick shortcut in the dock on osx,
 
 
 # Useage
