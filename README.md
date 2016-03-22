@@ -13,7 +13,7 @@ You need to pass three things into it.
 
 3. The icon (its full path) you want pass (To convert images to icns visit [iconverticons](https://iconverticons.com/online/) )
 
-It will then create a folder called build . Your exe and  Mac app (.app) wrapper are there now  :)
+It will then create a folder called build . Mac app (.app) wrapper are there now  :)
 
 
 ```
