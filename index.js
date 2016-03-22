@@ -1,3 +1,5 @@
+#! /usr/local/bin/node
+
 var fs = require('fs');
 var NwBuilder = require('nw-builder');
 var move = require('file-move');
@@ -33,7 +35,7 @@ module.exports = {
       platforms: ['osx64', 'win64'],
       appName: title,
       macIcns: "./temp/icon.icns",
-      buildDir: "../../build",
+      buildDir: __dirname + "/build",
       version: "0.12.0",
       zip: false
 

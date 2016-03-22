@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node tests/index.js"
   },
+  "bin": {
+       "websitewrapper": "./command.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RobertJGabriel/websiteWrapper.git"
@@ -17,6 +20,8 @@
   ],
   "dependencies": {
     "fs": "*",
+    "commander":"*",
+    "path":"*",
     "nw-builder": "*",
     "file-move": "*",
     "gulp-rename": "*",
