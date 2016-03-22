@@ -1,7 +1,7 @@
 
-# Website Wrapper
+![alt text](assets/readme.png "Firebase Yeti")
 # About
-This Project does what it says on the tin. Create a dmg of a website so you can have it as a quick shortcut in the dock on osx,
+This project does what it says on the tin. Create a dmg of a website so you can have it as a quick shortcut in the dock on osx.
 
 # Installation
 
