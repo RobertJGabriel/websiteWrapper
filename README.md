@@ -9,7 +9,7 @@ This Project does what it says on the tin. Create a dmg of a website so you can 
 npm install websitewrapper
 ```
 
-# Useage
+# Usage
 You need to pass three things into it.
 
 1. The url of the website you want to create the shortcut for.
