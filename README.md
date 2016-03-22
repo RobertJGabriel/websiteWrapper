@@ -6,7 +6,7 @@ This project does what it says on the tin. Wrap a website so you can have it as 
 # Installation
 
 ```shell
-npm install websitewrapper
+npm install websitewrapper -g
 ```
 
 # Usage
