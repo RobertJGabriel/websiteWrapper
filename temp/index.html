@@ -1,1 +1,23 @@
-<!DOCTYPE html><html lang="en"><head style="border:0px;margin:0px;"><title>projectbird</title><script>var gui=require("nw.gui"),menu=new gui.Menu({type:"menubar"}),menuItems=new gui.Menu;menu.createMacBuiltin("projectbird",{hideEdit:!1,hideWindow:!0}),gui.Window.get().menu=menu;</script></head><body style="border:0px;margin:0px;"><iframe src="http://projectbird.teamwork.com" style="border:0;width:100vw; height:100vw;padding:0;"></iframe></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head style="border:0px;margin:0px;">
+  <title>projectbird</title>
+  <script>
+    var gui = require("nw.gui"),
+      menu = new gui.Menu({
+        type: "menubar"
+      }),
+      menuItems = new gui.Menu;
+    menu.createMacBuiltin("projectbird", {
+      hideEdit: !1,
+      hideWindow: !0
+    }), gui.Window.get().menu = menu;
+  </script>
+</head>
+
+<body style="border:0px;margin:0px;">
+  <iframe src="http://projectbird.teamwork.com" style="border:0;width:100vw; height:100vw;padding:0;"></iframe>
+</body>
+
+</html>

@@ -7,8 +7,8 @@
     "test": "node tests/index.js"
   },
   "bin": {
-       "websitewrapper": "./command.js"
-},
+    "websitewrapper": "./command.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RobertJGabriel/websiteWrapper.git"
@@ -20,15 +20,15 @@
   ],
   "dependencies": {
     "fs": "*",
-    "commander":"*",
-    "path":"*",
+    "commander": "*",
+    "path": "*",
     "nw-builder": "*",
     "file-move": "*",
     "gulp-rename": "*",
     "gulp": "*",
-    "osenv":"*",
-    "username":"*",
-    "path-extra":"*"
+    "osenv": "*",
+    "username": "*",
+    "path-extra": "*"
   },
   "author": "Robert James Gabriel",
   "license": "ISC",
