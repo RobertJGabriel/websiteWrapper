@@ -73,7 +73,6 @@ module.exports = {
       });
 
 
-
       /**
        * Log system information
        * @param  {none} none
