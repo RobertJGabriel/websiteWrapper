@@ -1,6 +1,6 @@
 {
   "name": "websitewrapper",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "This project does what it says on the tin. Wrap a website so you can have it as a quick shortcut in the dock on osx.",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/RobertJGabriel/websiteWrapper.git"
   },
   "keywords": [
-    "firebase",
+    "wrapper",
     "curd",
     "cms"
   ],
@@ -28,7 +28,8 @@
     "gulp": "*",
     "osenv": "*",
     "username": "*",
-    "path-extra": "*"
+    "path-extra": "*",
+    "chalk":"*"
   },
   "author": "Robert James Gabriel",
   "license": "ISC",

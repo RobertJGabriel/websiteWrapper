@@ -21,4 +21,4 @@ var title = program.title || "Google";
 var icon = program.icon || __dirname + "/temp/icon.icns";
 
 
-siteWrapper.create(url, title, icon)
+siteWrapper.create(url, title, icon);

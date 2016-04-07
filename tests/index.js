@@ -1,2 +1,3 @@
-var websitewrapper = require('../index.js'),
-  websitewrapper.create("http://www.google.ie", "batman", "yeti.icns");
+
+  var siteWrapper = require('../index');
+      siteWrapper.create("http://robertgabriel.ninja", "siteWrapperExample", "yeti.icns");
