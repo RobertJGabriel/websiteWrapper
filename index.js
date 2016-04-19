@@ -1,5 +1,4 @@
-#! /usr/local/bin/node
-
+#! /usr/local/bin/nodex
 var fs = require('fs');
 var NwBuilder = require('nw-builder');
 var move = require('file-move');
@@ -104,6 +103,6 @@ module.exports = {
     }).catch(function(error) {
       console.log(chalk.red.bold("Failed"));
     });
-    
+
   }
 };
