@@ -5,7 +5,6 @@ var move = require('file-move');
 var rename = require("gulp-rename");
 var gulp = require('gulp');
 var osenv = require('osenv');
-var username = require('username');
 var chalk = require('chalk');
 
 
@@ -20,7 +19,6 @@ module.exports = {
    */
   create: function(url, title, icons) {
     var platform = process.platform;
-    var loggedInUsername = null;
     var buildPath = null;
 
     var html = '<!DOCTYPE html>' +
@@ -36,23 +34,17 @@ module.exports = {
       '</body>' +
       '</html>';
 
-    /**
-     * Gets the current username that is logged in... Not root if in sudo mode
-     * @param  {String} Path to the icons
-     */
-    username().then(username => {
-      loggedInUsername = username;
-    });
 
 
     /**
      * Gets the platform and the the build path for windows and mac
      * @param  {String} Path to the icons
      */
+
     if (platform === "darwin") {
-      buildPath = "/Users/" + loggedInUsername + "/Desktop/" + "build";
+      buildPath = process.env.HOME + "/Desktop/" + "build";
     } else if (platform === "win32") {
-      buildPath = "c:\\Users\\" + loggedInUsername + "\\Desktop\\" + "build";
+      buildPath =  process.env.HOMEDRIVE + process.env.HOMEPATH  + "\\Desktop\\" + "build";
     } else {
       return console.log(chalk.red.bold("not supported platform"));
     }
