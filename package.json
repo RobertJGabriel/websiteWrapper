@@ -1,6 +1,6 @@
 {
   "name": "websitewrapper",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "This project does what it says on the tin. Wrap a website so you can have it as a quick shortcut in the dock on osx.",
   "main": "index.js",
   "scripts": {

@@ -37,8 +37,9 @@ var websitewrapper = require('websitewrapper'),
 # Support
 - OSX 64 bit
 - Windows 64 bit (Windows 7 + )
+
 # Example
 As you can see
 Stupid project really but a nice on all the same.
 
-![alt text](assets/example.png "Firebase Yeti")
+![alt text](assets/example.png "Example Website Wrapper")
