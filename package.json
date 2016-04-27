@@ -19,17 +19,18 @@
     "cms"
   ],
   "dependencies": {
-    "fs": "*",
+    "chalk": "*",
     "commander": "*",
-    "path": "*",
-    "nw-builder": "*",
     "file-move": "*",
-    "gulp-rename": "*",
+    "fs": "*",
     "gulp": "*",
+    "gulp-rename": "*",
+    "highcharts": "^4.2.4",
+    "nw-builder": "*",
     "osenv": "*",
-    "username": "*",
+    "path": "*",
     "path-extra": "*",
-    "chalk":"*"
+    "username": "*"
   },
   "author": "Robert James Gabriel",
   "license": "ISC",
