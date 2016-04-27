@@ -35,9 +35,8 @@ var websitewrapper = require('websitewrapper'),
 ```
 
 # Support
-Osx at the moment.
-Feel Free to make a pull request for a windows version.
-
+- OSX 64 bit
+- Windows 64 bit (Windows 7 + )
 # Example
 As you can see
 Stupid project really but a nice on all the same.
