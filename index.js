@@ -35,7 +35,6 @@ module.exports = {
       '</html>';
 
 
-
     /**
      * Gets the platform and the the build path for windows and mac
      * @param  {String} Path to the icons
