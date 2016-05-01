@@ -14,9 +14,12 @@
     "url": "git+https://github.com/RobertJGabriel/websiteWrapper.git"
   },
   "keywords": [
+    "desktop",
+    "nw.js",
+    "app",
+    "native",
     "wrapper",
-    "curd",
-    "cms"
+     "web"
   ],
   "dependencies": {
     "chalk": "*",
