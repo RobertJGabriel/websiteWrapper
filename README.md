@@ -16,7 +16,7 @@ You need to pass three things into it.
 
 2. -t : The title of the website.
 
-3. -i : The icon (its full path) you want pass (To convert images to icns visit [iconverticons](https://iconverticons.com/online/) )
+3. -i : The icon (its full path) you want pass (To convert images to icns visit [iconverticons](https://cloudconvert.com/png-to-icns) )
 
 It will then create a folder called build on your desktop. Everything is in there now.
 
