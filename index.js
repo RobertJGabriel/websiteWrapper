@@ -19,7 +19,7 @@ module.exports = {
    */
   create: function(url, title, icons) {
     var platform = process.platform;
-    var buildPath = null;
+    var buildPath = null;// Set to null before the Operating system is detected.
 
     var html = '<!DOCTYPE html>' +
       '<html lang="en">' +
@@ -36,11 +36,11 @@ module.exports = {
 
 
     /**
-     * Gets the platform and the the build path for windows and mac
+     * Gets the platform and the the build path for either windows and mac
      * @param  {String} Path to the icons
      */
 
-    if (platform === "darwin") {
+    if (platform === "darwin") { //Mac
       buildPath = process.env.HOME + "/Desktop/" + "build";
     } else if (platform === "win32") {
       buildPath =  process.env.HOMEDRIVE + process.env.HOMEPATH  + "\\Desktop\\" + "build";
@@ -92,7 +92,8 @@ module.exports = {
     nw.build().then(function() {
       console.log(chalk.green.bold("All Done!!! Enjoy " + chalk.red("<3")));
     }).catch(function(error) {
-      console.log(chalk.red.bold("Failed"));
+      console.log(chalk.underline.red.bold("Failed"));
+      console.log(chalk.blue(error));
     });
 
   }
