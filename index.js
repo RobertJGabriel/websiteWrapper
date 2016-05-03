@@ -11,7 +11,7 @@ var chalk = require('chalk');
 module.exports = {
 
   /**
-   * Create The ex or dmg
+   * Create The exe or app
    * @param  {String} Url
    * @param  {String} Title
    * @param  {String} Icons
