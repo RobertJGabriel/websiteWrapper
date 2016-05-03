@@ -42,8 +42,6 @@ module.exports = {
      */
     username().then(username => {
 
-
-
       /**
        * Gets the platform and the the build path for either windows and mac
        * @param  {String} Path to the icons
