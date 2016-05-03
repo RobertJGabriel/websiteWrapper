@@ -9,14 +9,14 @@ var siteWrapper = require('./index');
 
 var program = require('commander');
 
-program
+programnpm install websitewrapper -g
   .version(pkg.version)
   .option('-u, --url <url>', 'URL of the website you want to wrap. Defaults to websiteWrapper')
   .option('-t, --title <title>', 'Title of the website you want to give the wrapped Website. Defaults to websiteWrapper')
   .option('-i, --icon <icon>', 'Location of the icon you want to use. To convert images to icns visit iconverticons')
   .parse(process.argv);
 
-var url = program.url || "http://www.google.ie";
+var url = program.url || "http://www.robertgabriel.ninja";
 var title = program.title || "websiteWrapper";
 var icon = program.icon || __dirname + "/temp/icon.icns";
 

@@ -22,6 +22,11 @@ It will then create a folder called build on your desktop. Everything is in ther
 ```shell
 websitewrapper -url http://www.google.ie -title Google -icon /Users/robertjgabriel/desktop/icon.icn
 ```
+## Test
+This will cretae a default package
+```shell
+npm test
+```
 
 ## Code
 
