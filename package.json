@@ -1,6 +1,6 @@
 {
   "name": "websitewrapper",
-  "version": "0.1.22",
+  "version": "0.1.23",
   "description": "This Project does what it says on the tin. Wrap web apps natively for osx or windows",
   "main": "index.js",
   "scripts": {
