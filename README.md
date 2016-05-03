@@ -1,7 +1,7 @@
 ![alt text](assets/readme.png "Firebase Yeti")
 
 # About
-This project does what it says on the tin. Wrap a website so you can have it as a quick shortcut in the dock on osx.
+This Project does what it says on the tin. Wrap web apps natively for osx or windows <3
 
 # Installation
 
@@ -36,6 +36,6 @@ var websitewrapper = require('websitewrapper'),
 - Windows 64 bit (Windows 7 + )
 
 # Example
-As you can see Stupid project really but a nice on all the same.
+As you can see stupid project really but a nice on all the same.
 
 ![alt text](assets/example.png "Example Website Wrapper")

@@ -1,7 +1,7 @@
 {
   "name": "websitewrapper",
-  "version": "0.1.20",
-  "description": "This project does what it says on the tin. Wrap a website so you can have it as a quick shortcut in the dock on osx.",
+  "version": "0.1.22",
+  "description": "This Project does what it says on the tin. Wrap web apps natively for osx or windows",
   "main": "index.js",
   "scripts": {
     "test": "node tests/index.js"
