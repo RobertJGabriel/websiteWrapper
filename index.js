@@ -98,7 +98,7 @@ module.exports = {
        * @param  {none} none
        */
       nw.build().then(function() {
-        console.log(chalk.green.bold("All Done!!! Enjoy " + chalk.red("<3" + buildPath)));
+        console.log(chalk.green.bold("All Done!!! Enjoy " + chalk.red("<3")));
       }).catch(function(error) {
         console.log(chalk.underline.red.bold("Failed"));
         console.log(chalk.blue(error));
