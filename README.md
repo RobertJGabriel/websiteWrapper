@@ -11,9 +11,9 @@ npm install websitewrapper -g
 
 # Usage
 You need to pass three things into it.
-- -u or -url :  The url of the website you want to create the shortcut for.
-- -t or -title : The title of the website.
-- -i or icon: The icon (its full path) you want pass (To convert images to icns visit [iconverticons](https://cloudconvert.com/png-to-icns) )
+- -u or --url :  The url of the website you want to create the shortcut for.
+- -t or --title : The title of the website.
+- -i or --icon: The icon (its full path) you want pass (To convert images to icns visit [iconverticons](https://cloudconvert.com/png-to-icns) )
 
 It will then create a folder called build on your desktop. Everything is in there now.
 
