@@ -9,7 +9,7 @@ var siteWrapper = require('./index');
 
 var program = require('commander');
 
-programnpm install websitewrapper -g
+program
   .version(pkg.version)
   .option('-u, --url <url>', 'URL of the website you want to wrap. Defaults to websiteWrapper')
   .option('-t, --title <title>', 'Title of the website you want to give the wrapped Website. Defaults to websiteWrapper')
